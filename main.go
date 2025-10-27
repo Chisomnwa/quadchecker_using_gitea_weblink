@@ -5,7 +5,9 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"slices"
 	"strings"
+
 	"acad.learn2earn.ng/git/cnnamani/quad/piscine"
 )
 
@@ -58,6 +60,8 @@ func main() {
 			matches = append(matches, fmt.Sprintf("[%s] [%d] [%d]", name, width, height))
 		}
 	}
+
+	slices.Sort(matches)
 
 	if len(matches) == 0 {
 		fmt.Println("Not a quad function")
