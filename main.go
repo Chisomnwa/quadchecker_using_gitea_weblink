@@ -69,3 +69,33 @@ func main() {
 		fmt.Println(strings.Join(matches, " || "))
 	}
 }
+
+// package main
+
+// import (
+// 	"os"
+// 	"strconv"
+
+// 	"acad.learn2earn.ng/git/cnnamani/quad/piscine"
+// )
+
+// func main() {
+// 	args := os.Args
+
+// 	x, _ := strconv.Atoi(args[1])
+// 	y, _ := strconv.Atoi(args[2])
+
+// 	if args[0] == "./quadA" {
+// 		piscine.QuadA(x, y)
+// 	} else if args[0] == "./quadB" {
+// 		piscine.QuadB(x, y)
+// 	} else if args[0] == "./quadC" {
+// 		piscine.QuadC(x, y)
+// 	} else if args[0] == "./quadD" {
+// 		piscine.QuadD(x, y)
+// 	} else if args[0] == "./quadE" {
+// 		piscine.QuadE(x, y)
+// 	} else {
+// 		os.Stdout.WriteString("Not a quad function\n")
+// 	}
+// }
