@@ -36,11 +36,15 @@ Not a quad function
 go run main.go
 ```
 
+***Paste a rectangle output, e.g.:***
+
 ```lua
 o---o
 |   |
 o---o
 ```
+
+***output:***
 
 ```css
 [quadA] [5] [3]
